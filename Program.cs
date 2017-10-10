@@ -27,9 +27,11 @@ namespace semana2_aula2
                 case "7": case "8":
                     Console.WriteLine("Quinta-Feira");
                     break;
-                case "9": case "0":
-                    Console.WriteLine("Sexta-Feira");
-                    break;                        
+                case "9": case "0":                    
+                    break; 
+                   default:
+                     Console.WriteLine("Deu ruim");
+                   break;
             }
         }
     }
